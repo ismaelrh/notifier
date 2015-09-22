@@ -16,8 +16,8 @@ public class SmsSender implements Sender {
      */
   
     private SmsUp handler;
-    private String clientID = "2eb6a680c8f326c5fc9f6fc53150d2d5";
-    private String clientPass ="4ce3c4894ef1fe81e167c140ffa40dc1e010a46c";
+    private String clientID = "ID";
+    private String clientPass ="PASS";
     private String username = "ARACES";
 
     public SmsSender(){
