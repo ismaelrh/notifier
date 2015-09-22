@@ -160,7 +160,7 @@ public class SmsUp {
         //Se añaden cabeceras
         for (HttpHeader cabecera : cabeceras) {
             con.setRequestProperty(cabecera.getName(), cabecera.getValue());
-            System.out.println(cabecera.getName() + " -> " + cabecera.getValue());
+           
         }
 
         if (con.getResponseCode() == 200) {
